@@ -38,7 +38,3 @@ jobs:
       - name: 🔍 Run tests
         run: |
           pytest --maxfail=1 --disable-warnings --tb=short
-
-      - name: 🏗️ Build Docker image (optional)
-        run: |
-          docker build -t nlp-service .
