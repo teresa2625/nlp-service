@@ -3,3 +3,4 @@ uvicorn
 pillow
 opencv-python
 spacy
+pytest
