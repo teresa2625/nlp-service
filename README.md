@@ -14,7 +14,7 @@ This FastAPI-based service extracts body parts from medical notes using NLP (spa
 ## Prerequisites
 
 - Python 3.x
-- pip package manager
+- `pip` package manager
 
 ## Installation
 
@@ -58,7 +58,7 @@ uvicorn main:app --host 127.0.0.1 --port 8000 --reload
 
 #### Request Parameters
 
-- note (string): Doctor's note describing symptoms, e.g., Left shoulder muscle tight.
+- `note` (string): Doctor's note describing symptoms, e.g., `Left shoulder muscle tight`.
 
 ### Example Request
 
@@ -91,13 +91,13 @@ nlp-service/
 
 1. Body image not found
 
-- Ensure body.jpg is present in the root directory.
+- Ensure `body.jpg` is present in the root directory.
 - Try using a different image format like PNG.
 
 2. PIL or FastAPI not found
 
-- Run pip install -r requirements.txt to install missing dependencies.
+- Run `pip install -r requirements.txt` to install missing dependencies.
 
 3. spaCy model not installed
 
-- Run python -m spacy download en_core_web_sm.
+- Run `python -m spacy download en_core_web_sm`.
